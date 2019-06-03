@@ -43,6 +43,11 @@ noremap <leader>T :CtrlPClearCache<CR>:CtrlP<CR>
 noremap <leader>j :TagbarToggle<CR>
 nnoremap <leader>g :GitGutterToggle<CR>
 noremap <silent> <leader>V :source ~/.config/nvim/init.vim<CR>:filetype detect<CR>:exe ":echo 'init.vim reloaded'"<CR>
+
+nnoremap <F5> :call LanguageClient_contextMenu()<CR>
+nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
+nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
+nnoremap <silent> <F2> :call Languageclient#textDocument_rename()<CR>
 set rnu
 set nu
 set autoindent
