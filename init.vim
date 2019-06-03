@@ -42,7 +42,11 @@ noremap <leader>f :NERDTreeFind<CR>
 noremap <leader>t :CtrlP<CR>
 noremap <leader>T :CtrlPClearCache<CR>:CtrlP<CR>
 noremap <leader>j :TagbarToggle<CR>
-nnoremap <leader>g :GitGutterToggle<CR>
+noremap <leader>gs :Gstatus<CR>
+noremap <leader>gd :Gdiff<CR>
+noremap <leader>gc :Gcommit<CR>
+noremap <leader>gp :Gpush<CR>
+nnoremap <leader>gg :GitGutterToggle<CR>
 noremap <silent> <leader>V :source ~/.config/nvim/init.vim<CR>:filetype detect<CR>:exe ":echo 'init.vim reloaded'"<CR>
 
 nnoremap <F5> :call LanguageClient_contextMenu()<CR>
