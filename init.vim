@@ -3,6 +3,11 @@ set nocompatible
 filetype on
 filetype off
 filetype plugin indent on
+" Set basic mouse behaviour
+set mouse=a
+if exists('$TMUX')
+  set ttymouse=xterm2
+endif
 " Setup vim-plug
 call plug#begin()
 
