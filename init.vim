@@ -86,6 +86,7 @@ set wildmenu
 set wildmode=longest,list,full
 
 autocmd FileType javascript setlocal omnifunc=LanguageClient#complete
+autocmd FileType haskell setlocal omnifunc=LanguageClient#complete
 
 autocmd BufEnter * call ncm2#enable_for_buffer()
 
