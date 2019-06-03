@@ -97,3 +97,6 @@ else
 	set background=dark
 endif
 colorscheme solarized
+
+" setup fenced languages
+let g:markdown_fenced_languages = ['html', 'python', 'bash=sh', 'haskell', 'ruby', 'elixir']
