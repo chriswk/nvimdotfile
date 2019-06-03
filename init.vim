@@ -8,6 +8,7 @@ call plug#begin()
 
 Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 Plug 'ncm2/ncm2'
 Plug 'roxma/nvim-yarp'
