@@ -33,7 +33,7 @@ call plug#end()
 let g:LanguageClient_serverCommands = {
 	\ 'rust': ['~/.cargo/bin/rustup', 'run', 'stable', 'rls'],
         \ 'haskell': ['hie-wrapper'],
-        \ 'javascript': ['/usr/local/bin/javascript-typescript-stdio'],
+        \ 'javascript': ['javascript-typescript-stdio'],
         \ 'python': ['pyls'],
 	\ }
 
