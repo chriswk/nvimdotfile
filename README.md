@@ -8,6 +8,7 @@ Then run `nvim +PlugInstall +UpdateRemotePlugins +qa`
 Leader = `,`
 
 | Shortcut | Action | Mnemonic 
+| ---------|:-------:|---------:|
 | C-k | Switch window up | 
 | C-j | Switch window down | 
 | C-l | Switch window right | 
