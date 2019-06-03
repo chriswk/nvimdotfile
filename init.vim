@@ -26,6 +26,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
 Plug 'majutsushi/tagbar'
 Plug 'airblade/vim-gitgutter'
+Plug 'slashmili/alchemist.vim'
+Plug 'plasticboy/vim-markdown'
 call plug#end()
 
 let g:LanguageClient_serverCommands = {
@@ -52,6 +54,8 @@ noremap <leader>gd :Gdiff<CR>
 noremap <leader>gc :Gcommit<CR>
 noremap <leader>gp :Gpush<CR>
 nnoremap <leader>gg :GitGutterToggle<CR>
+noremap <leader>pu :PlugUpdate<CR>
+noremap <leader>pi :PlugInstall<CR>
 noremap <silent> <leader>V :source ~/.config/nvim/init.vim<CR>:filetype detect<CR>:exe ":echo 'init.vim reloaded'"<CR>
 
 nnoremap <F5> :call LanguageClient_contextMenu()<CR>
